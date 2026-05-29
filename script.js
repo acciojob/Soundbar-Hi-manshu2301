@@ -14,7 +14,7 @@ sounds.forEach(function(sound){
 	buttonDiv.appendChild(btn);
 });
 const stopBtn = document.createElement("button");
-stopBtn.classList.addd("stop");
+stopBtn.classList.add("stop");
 stopBtn.innerText = "stop";
 stopBtn.addEventListener("click", stopSongs);
 buttonDiv.appendChild(stopBtn);
