@@ -21,7 +21,7 @@ stopBtn.innerText = "stop";
 stopBtn.addEventListener("click", stopSongs);
 buttonDiv.appendChild(stopBtn);
 function stopSongs() {
-	if(cuurentAudio){
+	if(audio){
 		audio.pause();
 		audio.currentTime = 0;
 	}
